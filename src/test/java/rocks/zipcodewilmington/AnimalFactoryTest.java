@@ -14,15 +14,18 @@ public class AnimalFactoryTest {
     //TODO - Create Test for `Animal createDog(String name, Date birthDate)`
     @Test
     public void createDogTest(){
-        String name = "Snoopy";
-        Date birthDate = new Date(4/7/2022);
 
-        Dog dog = new Dog (name,birthDate, null);
-
-        String newName = dog.createDog();
-        Date newDate = creat
+//
+//        Dog dog = new Dog ("Robby",new Date(),null);
+//
+//
+//
+//        String newName = dog.createDog();
+//        Date newDate = creat
 
     }
 
     //TODO - Create Test for `Animal createCat(String name, Date birthDate)`
+    @Test
+    public void createCatTest(){}
 }
