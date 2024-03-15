@@ -59,11 +59,11 @@ public class CatHouseTest {
     // TODO - Create tests for `Integer getNumberOfCats()`
     @Test
     public void getNumberOfCatsTest(){
+        CatHouse.clear();
         Cat cat1 = new Cat("Milo", new Date("6/2/2020"),342);
         Cat cat2 = new Cat("Eric", new Date("4/1/1998"),911);
         Cat cat3 = new Cat("Muffin", new Date("6/12/1998"),123);
         Integer expectedNum = 3;
-
 
         CatHouse.add(cat1);
         CatHouse.add(cat2);
@@ -71,6 +71,5 @@ public class CatHouseTest {
         Integer numOfCats = CatHouse.getNumberOfCats();
 
         Assert.assertEquals(expectedNum,numOfCats);
-
     }
 }
